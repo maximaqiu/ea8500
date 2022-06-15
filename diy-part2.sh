@@ -23,5 +23,7 @@ sed -i "s/OpenWrt /Max build $CATALINA_BASE(TZ=UTC-8 date "+%Y.%m.%d") @ Linksys
 sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-sfe/popd/zh-cn/sfe.po
 
 # 修改DNS
-sed -i "2i # network config" package/lean/default-settings/files/zzz-default-settings
+# sed -i "2i # network config" package/lean/default-settings/files/zzz-default-settings
 sed -i "3i uci set network.lan.dns='114.114.114.114'" package/lean/default-settings/files/zzz-default-settings
+
+sed -i "2i echo  0xDEADBEEF > /etc/config/google_fu_mode" package/lean/default-settings/files//zzz-default-settings
