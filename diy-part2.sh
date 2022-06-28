@@ -18,7 +18,7 @@ sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generat
 #sed -i "s/DISTRIB_DESCRIPTION='OpenWrt '/DISTRIB_DESCRIPTION='Linksys EA8500 Router '/g" package/lean/default-settings/files/zzz-default-settings
 
 # 版本号里显示自己名字
-sed -i "s/OpenWrt /Max build $CATALINA_BASE(date "+%Y%m%d") @ Linksys EA8500 Router /g" package/lean/default-settings/files/zzz-default-settings
+sed -i "s/OpenWrt /Max build 20220628 @ Linksys EA8500 Router /g" package/lean/default-settings/files/zzz-default-settings
 
 sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/luci/applications/luci-app-turboacc/po/zh-cn/turboacc.po
 
