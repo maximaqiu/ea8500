@@ -35,9 +35,22 @@
 # 常用插件库
 # git clone https://github.com/281677160/openwrt-package package/danshui
 svn co https://github.com/281677160/openwrt-package/trunk/luci-app-rebootschedule package/luci-app-rebootschedule
-svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-eqos package/luci-app-eqos
+git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-package
+git clone https://github.com/kenzok8/small.git package/small
 svn co https://github.com/281677160/openwrt-package/trunk/luci-app-advanced package/luci-app-advanced
 #svn co https://github.com/281677160/openwrt-package/trunk/luci-app-vssr package/luci-app-vssr
+svn co https://github.com/281677160/openwrt-package/trunk/iptvhelper package/iptvhelper
+svn co https://github.com/281677160/openwrt-package/trunk/gost package/gost
+svn co https://github.com/281677160/openwrt-package/trunk/gowebdav package/gowebdav
+svn co https://github.com/281677160/openwrt-package/trunk/linkease package/linkease
+svn co https://github.com/281677160/openwrt-package/trunk/luci-app-gost package/luci-app-gost
+svn co https://github.com/281677160/openwrt-package/trunk/luci-app-gowebdav package/luci-app-gowebdav
+svn co https://github.com/281677160/openwrt-package/trunk/luci-app-iptvhelper package/luci-app-iptvhelper
+svn co https://github.com/281677160/openwrt-package/trunk/luci-app-wolplus package/luci-app-wolplus
+svn co https://github.com/281677160/openwrt-package/trunk/luci-app-wifidog package/luci-app-wifidog
+svn co https://github.com/281677160/openwrt-package/trunk/wifidog-wiwiz package/wifidog-wiwiz
+
+
 # vssr
 git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
 # cpulime
